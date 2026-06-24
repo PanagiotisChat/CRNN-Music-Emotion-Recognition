@@ -1,13 +1,15 @@
 # CRNN-Music-Emotion-Recognition
-CRNN-based Music Emotion Recognition system using the Emotify dataset. The model employs a hybrid CNN-GRU architecture with dynamic optimization for robust classification into four emotional states. Includes a CLI-based advisor to promote user mood regulation through automated playlist analysis.
+CRNN-based Music Emotion Recognition system using the Emotify dataset. The model employs a hybrid CNN-GRU architecture with dynamic optimization for robust classification into four emotional states. Includes a CLI-based advisor to promote user mood regulation through automated playlist analysis. 
 
-![Screenshot of the AI_music_advisor.ipnyb](assets/screenshot.png)
-
-This repository contains the implementation of a hybrid Convolutional Recurrent Neural Network (CRNN) designed for Music Emotion Recognition (MER). The system processes audio signals using Log-Mel Spectrograms to classify music into four emotional categories: Energy/Joy, Calm/Relax, Sadness/Nostalgia, and Tension/Fear.
 
 **Project Overview**
 
 This project explores the "semantic gap" in music information retrieval by combining CNN layers for spatial feature extraction with GRU layers for temporal modeling. It features a CLI-based mental health advisor that analyzes user playlists to provide supportive prompts, aiming to assist in mood regulation.
+
+![Screenshot of the AI_music_advisor.ipnyb](assets/screenshot.png)
+
+**Example of a Mel-Spectogram**
+![Mel-Spectogram](assets/mel_spectogram.png)
 
 **Key Features**
 
@@ -18,7 +20,10 @@ This project explores the "semantic gap" in music information retrieval by combi
 
 **Performance Metrics**
 
-The model achieved an impressive weighted average F1-score of 0.92, demonstrating high robustness across all emotional classes
+The model achieved an impressive weighted average F1-score of 0.92, demonstrating high robustness across all emotional classes. Below are presented the Final Learning-Loss Curve and ROC Curve for the epoch with the minimum Loss (Epoch 49)
+
+![Final CRNN Learning-Loss Curve](assets/final_loss.png)
+![Final CRNN ROC Curve](assets/final_ROC.png)
 
 **Requirements**
 
