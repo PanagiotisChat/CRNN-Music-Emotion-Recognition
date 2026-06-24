@@ -4,7 +4,7 @@ CRNN-based Music Emotion Recognition system using the Emotify dataset. The model
 
 **Project Overview**
 
-This project explores the "semantic gap" in music information retrieval by combining CNN layers for spatial feature extraction with GRU layers for temporal modeling. It features a CLI-based mental health advisor that analyzes user playlists to provide supportive prompts, aiming to assist in mood regulation.
+In this project, an advanced Music Emotion Recognition (MER) system is developed using Convolutional Recurrent Neural Networks (CRNN). Utilizing the Emotify dataset, the model was trained to classify audio clips into four emotional categories: Energy/Joy, Calm/Relax, Sadness/Nostalgia, and Tension/Fear. The methodology involves converting audio to Mel-spectrograms and applying normalization techniques (Min-Max Scaling), which proved crucial in preventing model collapse. The results demonstrated high discriminative ability, achieving an overall F1-score of 0.92, a highly competitive performance. Finally, a mental health monitoring application is proposed, which analyzes the user's musical preferences and intervenes with supportive messages upon detecting prolonged states of melancholy.
 
 ![Screenshot of the AI_music_advisor.ipnyb](assets/screenshot.png)
 
