@@ -5,3 +5,5 @@ Put .csv file here
 Create the Emotify_Audio folder and put the Audio folders in 
 
 Create the New_Audio folder and put your music there
+
+The other folder will be created running the Preprocess.ipynb file
