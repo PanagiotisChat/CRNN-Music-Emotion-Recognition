@@ -26,5 +26,6 @@ librosa
 numpy
 Pandas
 
-#AI Transparency & Credits
+**AI Transparency & Credits**
+
 The development of this project, including the conceptual design, CRNN architecture, and analysis of results, is the product of personal research. Generative AI tools were utilized to assist with code optimization, debugging, and the formatting of this documentation.
