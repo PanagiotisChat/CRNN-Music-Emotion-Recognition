@@ -1,6 +1,8 @@
 # CRNN-Music-Emotion-Recognition
 CRNN-based Music Emotion Recognition system using the Emotify dataset. The model employs a hybrid CNN-GRU architecture with dynamic optimization for robust classification into four emotional states. Includes a CLI-based advisor to promote user mood regulation through automated playlist analysis.
 
+![Screenshot of the AI_music_advisor.ipnyb](assets/screenshot.png)
+
 This repository contains the implementation of a hybrid Convolutional Recurrent Neural Network (CRNN) designed for Music Emotion Recognition (MER). The system processes audio signals using Log-Mel Spectrograms to classify music into four emotional categories: Energy/Joy, Calm/Relax, Sadness/Nostalgia, and Tension/Fear.
 
 **Project Overview**
