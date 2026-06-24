@@ -18,12 +18,6 @@ This project explores the "semantic gap" in music information retrieval by combi
 
 The model achieved an impressive weighted average F1-score of 0.92, demonstrating high robustness across all emotional classes
 
-Class              Precision  Recall  F1-Score
-Energy/Joy         0.96       0.87    0.91
-Calm/Relax         0.95       0.93    0.94
-Sadness/Nostalgia  0.93       0.89    0.91
-Tension/Fea        0.93       0.91    0.92
-
 **Requirements**
 
 To run this project, ensure you have the following dependencies installed:
